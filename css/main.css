@@ -40,6 +40,14 @@ body {
 
 .prof-info {
     grid-area: prof-info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+}
+
+.header {
+    align-self: center;
 }
 
 .prof-pic {
