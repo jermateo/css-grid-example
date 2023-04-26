@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 10vh 40vh 50vh;
+    grid-template-areas: 
+    "nav nav nav nav nav nav"
+    ". prof-pic prof-info prof-info prof-info ."
+    ". posts posts posts posts ."
+    ;
+}
+
+.navbar {
+    grid-area: nav;
+}
+
+.prof-info {
+    grid-area: prof-info;
+}
+
+.prof-pic {
+    grid-area: prof-pic;
+}
+
+.posts {
+    grid-area: posts;
+}
