@@ -7,7 +7,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 10vh 40vh 100vh;
+    grid-template-rows: 10vh 40vh;
     grid-template-areas: 
     "nav nav nav nav nav nav"
     ". prof-pic prof-info prof-info prof-info ."
