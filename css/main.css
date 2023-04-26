@@ -15,9 +15,9 @@ body {
     ;
 }
 
-.area-border {
+/* .area-border {
     border: 2px solid black;
-}
+} */
 
 .navbar {
     grid-area: nav;
@@ -67,4 +67,26 @@ body {
 
 .posts {
     grid-area: posts;
+}
+
+.post-card {
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links > a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-links > a:hover {
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
 }
