@@ -15,6 +15,18 @@ body {
     ;
 }
 
+@media(min-width: 760px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 10vh 25vh 1fr;
+        grid-template-areas: 
+        "nav nav nav"
+        "prof-info posts prof-pic"
+        "prof-info posts ."
+        ;
+} }
+
 /* .area-border {
     border: 2px solid black;
 } */
