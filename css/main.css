@@ -44,6 +44,16 @@ body {
 
 .prof-pic {
     grid-area: prof-pic;
+    place-self: center;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.image > img {
+    width: 100%;
+    height: auto;
 }
 
 .posts {
